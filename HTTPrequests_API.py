@@ -118,3 +118,10 @@ r.json()
 r.json()['args']
 
 
+'''Post requests'''
+
+url_post = 'http://httpbin.org/post'
+
+#to use a post request we use a the post() function
+
+r_post = requests.post(url_post, payload)
